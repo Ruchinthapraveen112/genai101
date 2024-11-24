@@ -1,0 +1,61 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #E3FDFD, #FFE6FA);  /* Light gradient background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: #FFFFFF;
+    padding: 3em;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: translateY(-5px);  /* Slight lift effect on hover */
+}
+
+h1 {
+    color: #3E4095;  /* Deep Indigo */
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    background: linear-gradient(90deg, #5C6BC0, #8E44AD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    color: #4A5568;  /* Slate Gray */
+    font-size: 1.2em;
+    margin: 1em 0;
+    line-height: 1.6;
+}
+
+button {
+    background: linear-gradient(90deg, #FF6F61, #FF9671);  /* Gradient button */
+    color: #FFFFFF;
+    border: none;
+    padding: 1em 2em;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.1em;
+    box-shadow: 0 5px 15px rgba(255, 111, 97, 0.4);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #FF9671, #FF6F61);  /* Reverse gradient on hover */
+    box-shadow: 0 8px 20px rgba(255, 111, 97, 0.6);
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.98);
+}
